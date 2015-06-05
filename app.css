@@ -1,0 +1,228 @@
+body{
+	background: url(img/world.jpg) 0 0
+	no-repeat;
+}
+.page{
+	width: 980px;
+	height: 1950px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.logo{
+	list-style-type: none;
+	float: left;
+	padding-left: 8px;
+	margin-top: 35px;
+}
+.nav-ul{
+	display: inline-block;
+}
+.navi{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 46px;
+	margin-right: 4px;
+}
+
+.navi-href{
+	text-decoration: none;
+	color: red;
+}
+.second,.third,.fourth,.fifth{
+	border-left: 1px solid black;
+	padding-left: 10px;
+}
+.social{
+	float: right;
+	margin-top: -77px;
+}
+.social-media{
+	list-style-type: none;
+	display: inline-block;	
+}
+.social-media-img{
+	height: 22px;
+}
+.social-first,
+.social-second{
+	padding-right: 10px;
+}
+.social-third{
+	padding-right: 11px;
+}
+
+.search{
+	float: right;
+	margin-top: -40px;
+}
+
+.search-input {
+    border: 1px solid #bababa;
+    background-color: #f8f8f8;
+    width: 218px;
+    height: 28px;
+    vertical-align: middle;
+}
+.search-submit {
+	padding-left: 0px;
+	float: right;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: black; url(img/) no-repeat 50% 50%;
+    vertical-align: middle;
+}
+nav{
+	background-color: black;
+	height: 46px;
+	width: 100%
+}
+.navigation{
+	text-align: center;
+	padding-top: 13px;
+}
+.navigation-li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 35px;
+	vertical-align: center;
+}
+.navigation-href{
+	text-decoration: none;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+}
+.breaking{
+	width: 670px;
+	height: 350px;
+	background-color: #202021;
+	position: absolute;
+  	margin-top: 10px;
+}
+.breaking-news{
+	background-image: url(img/man.jpg);
+	width: 525px;
+	background-color: black;
+	height: 285px;
+	margin-top:  14px;
+	margin-left: 11px;
+	padding-bottom: 14px;
+	border: 4px solid black;
+}
+.breaking-text{
+	background-color: #080808;
+	opacity:0.7;
+	color: white;
+	position: absolute;
+	text-align: center;
+  	bottom: 33px;
+  	width: 525px;
+  	font-family: 'Fjalla One', sans-serif;
+}
+.breaking-p{
+	margin-top: 294px;
+	color: white;
+	position: absolute;
+	background-color: red;
+	padding: 10px;
+	margin-left: -15px;
+}
+.events{
+	position: relative;
+  	bottom: 319px;
+
+}
+.events-ul{
+	list-style-type: none;
+	float: right;
+	margin-right: 15px;
+}
+.events li{
+}
+.events-img{
+	width: 100px;
+	height: 72px;
+}
+.video{
+	background-color: #e4e4e4;
+	width: 300px;
+	height: 350px;
+	float: right;
+	margin-top: 10px;
+}
+.video-li{
+	list-style-type: none;
+}
+.video iframe{	
+	width: 80px;
+	height: 55px;
+	margin-bottom: 13px;
+}
+.lorem-text{
+	float: right;
+	font-size: 12px;
+	margin-right: 60px;
+}
+.btn-more{
+	color: white;
+	background-color: red;
+	border: none;
+}
+.btn-video{	
+	float: right;
+	margin-top: 29px;
+}
+.content-middle{
+	position: fixed;
+	width: 680px;
+	background-color: red;
+}
+.from-around{
+	width: 500px;
+	position: relative;
+  	top: 388px;
+  	margin: 0 ;
+	padding: 0 ;
+	margin-top: 10px;
+}
+ h3{
+	border-bottom: 4px solid red; 
+}  	
+.from-ul{
+	padding-left: 0px;	
+}
+.from-around-li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 19px;
+}
+.from-around-li p{
+	font-size: 12px; 
+}
+.btn-around{
+	float: right;
+	margin-top: -38px;
+}
+.btn-read{
+	color: red;
+	border: none;
+	background-color: white;
+}
+.latest-articles{
+	margin-top: 420px;
+	width: 500px;
+}
+.gallery{
+	width: 500px;
+}
+.gallery-img{
+	margin-right: 18px;
+	margin-bottom: 13px;
+	display: inline-block;
+}
+.second{
+	width: 145px;
+	height: 100px;
+}
