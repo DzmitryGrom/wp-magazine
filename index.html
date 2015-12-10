@@ -9,30 +9,36 @@
 <body>
 	<div class="page">
 		<header>
-			<ul class="logo">
-				<li><img src="img/the.jpg"></li>
-				<li><img src="img/new reporter.jpg"></li>
-			</ul>
-			<ul class="nav-ul">
-				<li class="navi"><a class="navi-href" href="#">Home</a></li>
-				<li class="navi"><a class="navi-href second" href="#">About Us</a></li>
-				<li class="navi"><a class="navi-href third" href="#">Contact Us</a></li>
-				<li class="navi"><a class="navi-href fourth" href="#">Subscribe</a></li>
-				<li class="navi"><a class="navi-href fifth" href="#">Login</a></li>	
-			</ul>
-			<ul class="social">
-				<li class="social-media"><a href="#"><img class="social-media-img social-first" src="img/tv.jpg"></a></li>
-				<li class="social-media"><a href="#"><img class="social-media-img social-second" src="img/fc.jpg"></a></li>
-				<li class="social-media"><a href="#"><img class="social-media-img social-third" src="img/social.jpg"></a></li>
-				<li class="social-media"><a href="#"><img class="social-media-img" src="img/like.jpg"></a></li>
-				<li class="social-media"><a href="#"><img class="social-media-img" src="img/+1.jpg"></a></li>	
-			</ul>
-			<form>
-		    	<div class="search">
-		     		<input  class="search-input" type="search" name="q">
-		    		<button type="submit"><img src="img/search-icon.png"></button>
-		  		 </div>
-		   	</form>
+			<div class="header-logo">		
+				<ul class="header-logo-list">
+					<li class="header-logo-element"><img src="img/the.jpg"></li>
+					<li class="header-logo-element"><img src="img/new reporter.jpg"></li>
+				</ul>
+			</div>
+			<div class="header-nav">	
+				<ul class="header-nav-list">
+					<li class="header-nav-element"><a class="first" href="#">Home</a></li>
+					<li class="header-nav-element"><a  href="#">About Us</a></li>
+					<li class="header-nav-element"><a  href="#">Contact Us</a></li>
+					<li class="header-nav-element"><a  href="#">Subscribe</a></li>
+					<li class="header-nav-element"><a  href="#">Login</a></li>	
+				</ul>
+			</div>
+			<div class="header-nav-social-caption">
+				<div class="header-nav-social-top">	
+					<ul class="header-nav-social-top-list">
+						<li class="header-nav-social-top-element"><a href="#"><img class="i_social" src="img/tv.jpg"></a></li>
+						<li class="header-nav-social-top-element"><a href="#"><img class="i_social" src="img/fc.jpg"></a></li>
+						<li class="header-nav-social-top-element"><a href="#"><img class="i_social" src="img/social.jpg"></a></li>
+						<li class="header-nav-social-top-element"><a href="#"><img class="i_social" src="img/like.jpg"></a></li>
+						<li class="header-nav-social-top-element"><a href="#"><img class="i_social" src="img/+1.jpg"></a></li>	
+					</ul>	
+					<div class="header-nav-search">
+				    	<input  class="header-nav-search-input" type="search" name="q">
+				   		<button type="submit"><img src="img/search-icon.png"></button>
+					</div>
+				</div>	
+			</div>	  		
 		</header>
 		<nav>
 			<ul class="navigation">
@@ -49,61 +55,152 @@
 			</ul>
 		</nav>
 		<div class="container">
-			<div class="content">
-				<div class="breaking">	
-					<div class="breaking-news">
+			<div class="container-top">
+				<div class="content-top-caption">	
+					<div class="content-top-news">
+						<img class="content-top-news_img" src="img/man.jpg" alt="man">
 						<span class="breaking-text">Lorem ipsum dolor sit amet,consectetur Nulla quis<br>lorem neque,mattis venenatis lectus.</span>
 						<p class="breaking-p">BREAKING NEWS</p>	
 					</div>
 					<div class="events">		
-						<ul class="events-ul">
-							<li><a href="#"><img class="events-img" src="img/man1.jpg"></a></li>
-							<li><a href="#"><img class="events-img" src="img/Cranberry.jpg"></a></li>
-							<li><a href="#"><img class="events-img" src="img/people.jpg"></a></li>
-							<li><a href="#"><img class="events-img" src="img/moto.jpg"></a></li>
+						<ul class="events-list">
+							<li class="events-element events-element_active"><a href="#"><img alt="man" class="events-img" src="img/man1.jpg"></a></li>
+							<li class="events-element"><a href="#"><img alt="chery" class="events-img" src="img/Cranberry.jpg"></a></li>
+							<li class="events-element"><a href="#"><img alt="PEOPLE" class="events-img" src="img/people.jpg"></a></li>
+							<li class="events-element"><a href="#"><img alt="moto" class="events-img" src="img/moto.jpg"></a></li>
 						</ul>
 					</div>	
 				</div>
 				<div class="video">
-					<ul>
-						<li class="video-li"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen ></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
-						<li class="video-li"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
-						<li class="video-li"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
-						<li class="video-li"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
-						<button class="btn-more btn-video">MORE+</button>
+					<ul class="video-list">
+						<li class="video-element"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen ></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
+						<li class="video-element"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
+						<li class="video-element"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
+						<li class="video-element"><iframe width="80" height="55" src="https://www.youtube.com/embed/mcCrGCwgx68" frameborder="0" allowfullscreen></iframe><p class="lorem-text">Lorem ipsum dolor sit<br>amet comse ctetur<br>adipiscing elit</p></li>
+						<a class="btn btn-more btn-video" href="#">MORE+</a>
 					</ul>
 				</div>			
 			</div>
-				<div class="from-around">
-					<h3>FROM AROUND THE WORLD</h3>
-					<button class="btn-more btn-around">MORE+</button>
-					<ul class="from-ul">
-						<li class="from-around-li"><img src="img/showman.jpg"><p><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><button class="btn-read">READ MORE</button></li>
-						<li class="from-around-li"><img src="img/boy.jpg"><p><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><button class="btn-read">READ MORE</button></li>
-						<li class="from-around-li"><img src="img/people-black.jpg"><p><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><button class="btn-read">READ MORE</button></li>
-					</ul>
+			<div class="container-middle">
+				<div class="container-middle-left">
+					<div class="from-around">	
+							<span class="from-around-text-top">FROM AROUND THE WORLD</span>
+							<div class="text-line"></div>
+							<a class="btn btn-more btn-around" href="#">MORE+</a>
+						<ul class="from-around-list">
+							<li class="from-around-element"><img class="i_info" src="img/showman.jpg"><p class="container-middle-text"><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><a class="btn btn-read" href="#">READ MORE</a></li>
+							<li class="from-around-element"><img class="i_info" src="img/boy.jpg"><p class="container-middle-text"><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><a class="btn btn-read" href="#">READ MORE</a></li>
+							<li class="from-around-element"><img class="i_info" src="img/people-black.jpg"><p class="container-middle-text"><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><a class="btn btn-read" href="#">READ MORE</a></li>
+						</ul>
+					</div>
+					<div class="from-around">
+						<span class="from-around-text-top">LATEST ARTICLES</span>
+						<div class="text-line"></div>
+						<a class="btn btn-more btn-around" href="#">MORE+</a>
+						<ul class="text-top-line from-around-list">
+							<li class="from-around-element"><img class="i_info" src="img/Mo.jpg"><p class="container-middle-text"><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><a class="btn btn-read" href="#">READ MORE</a></li>
+							<li class="from-around-element"><img class="i_info" src="img/gerl.jpg"><p class="container-middle-text"><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><a class="btn btn-read" href="#">READ MORE</a></li> 
+							<li class="from-around-element"><img class="i_info" src="img/many-people.jpg"><p class="container-middle-text"><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><a class="btn btn-read" href="#">READ MORE</a></li>
+						</ul>
+					</div>
+					<div class="from-around">
+						<span class="from-around-text-top">GALLERY</span>
+						<div class="text-line"></div>
+						<a class="btn btn-more btn-around" href="#">MORE+</a>
+						<ul class="text-top-line from-around-list">
+							<li class="from-around-element"><img class="i_info" src="img/one-gerl.jpg"></li>
+							<li class="from-around-element"><img class="i_info" src="img/to-gerl.jpg"></li>
+							<li class="from-around-element"><img class="i_info" src="img/police.jpg"></li><br>
+						</ul>
+						<ul class="from-around-list from-around-list-bottom">
+							<li class="from-around-element"><img class="i_info" src="img/phone.jpg"></li>
+							<li class="from-around-element"><img class="i_info" src="img/car.jpg"></li>
+							<li class="from-around-element"><img class="i_info" src="img/old-foto.jpg"></li>
+						</ul>
+					</div>
+					<div class="from-around">
+						<span class="from-around-text-top">TECH NEWS</span>
+						<div class="text-line"></div>
+						<a class="btn btn-more btn-around" href="#">MORE+</a>
+						<ul class="text-top-line from-around-list">
+							<li class="news-element">
+									<span class="news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venenatis<br> lectus. In interdum ullamcorper dolor...<br>by<p class="news-text-red">John Doe</p><p class="new-text_comments">29 comments</p></span>
+							</li>
+							<li class="news-element">
+									<span class="news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venenatis<br> lectus. In interdum ullamcorper dolor...<br>by<p class="news-text-red">John Doe</p><p class="new-text_comments">29 comments</p></span>
+							</li>
+						</ul>
+						<ul class=" from-around-list from-around-list-bottom news-around-list-bottom">
+							<li class="news-element">
+									<span class="news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venenatis<br> lectus. In interdum ullamcorper dolor...<br>by<p class="news-text-red">John Doe</p><p class="new-text_comments">29 comments</p></span>
+							</li>
+							<li class="news-element">
+									<span class="news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venenatis<br> lectus. In interdum ullamcorper dolor...<br>by<p class="news-text-red">John Doe</p><p class="new-text_comments">29 comments</p></span>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="latest-articles">
-					<h3>LATEST ARTICLES</h3>
-					<button class="btn-more btn-around">MORE+</button>
-					<ul class="from-ul">
-						<li class="from-around-li"><img src="img/Mo.jpg"><p><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><button class="btn-read">READ MORE</button></li>
-						<li class="from-around-li"><img src="img/gerl.jpg"><p><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><button class="btn-read">READ MORE</button></li>
-						<li class="from-around-li"><img src="img/many-people.jpg"><p><strong>Lorem ipsum dolor sit<br>amet,consectetur</strong><br>Nulla quis lorem neque,<br>mattis venenatis lectus.In<br>interdum ullamcorper dolor<br>eu mattis</p><button class="btn-read">READ MORE</button></li>
-					</ul>
+
+				<div class="container-middle-center">
+					<div class="from-the-desk">
+						<span class="from-around-text-top">FROM THE DESK</span>
+						<div class="text-line"></div>
+						<ul class="text-top-line from-around-list">
+							<li class="news-element">
+									<span class=" news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venen atis lectus. In interdum ull<br> amcorper dolor eu mattis.</span>
+									<a class="btn btn-read" href="#">READ MORE</a><span class="desk-value">3 hours ago</span>					
+							</li>
+							<li class="news-element">
+									<span class=" news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venen atis lectus. In interdum ull<br> amcorper dolor eu mattis.</span>
+									<a class="btn btn-read" href="#">READ MORE</a><span class="desk-value">3 hours ago</span>					
+							</li>
+							<li class="news-element">
+									<span class=" news-text"><strong>Lorem ipsum dolor sit amet<br>conse ctetur adipiscing elit</strong><br>Nulla quis lorem neque,matis venen atis lectus. In interdum ull<br> amcorper dolor eu mattis.</span>
+									<a class="btn btn-read" href="#">READ MORE</a><span class="desk-value">3 hours ago</span>
+									<a class="btn btn-more btn-desk" href="#">MORE+</a>					
+							</li>
+						</ul>
+					</div>
+					<div class="from-around">
+						<span class="from-around-text-top">EDITORIAL</span>
+						<div class="text-line"></div>
+						<ul class="text-top-line  editorial-list">
+							<li class="editorial-element">
+								<img class="editorial-img" src="img/people-p.png">
+								<span class="editorial-text">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>	
+							</li>
+							<li class="editorial-element">
+								<img class="editorial-img" src="img/woman.png">
+								<span class="editorial-text">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>	
+							</li>
+							<li class="editorial-element">
+								<img class="editorial-img" src="img/boy.png">
+								<span class="editorial-text">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>	
+							</li>
+							<li class="editorial-element">
+								<img class="editorial-img" src="img/woman.png">
+								<span class="editorial-text">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</span>	
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="gallery">
-					<h3>GALLERY</h3>
-					<button class="btn-more btn-around">MORE+</button>
-					<ul class="from-ul">
-						<li class="gallery-img"><img src="img/one-gerl.jpg"></li>
-						<li class="gallery-img"><img src="img/to-gerl.jpg"></li>
-						<li class="gallery-img"><img src="img/police.jpg"></li><br>
-						<li class="gallery-img"><img src="img/phone.jpg"></li>
-						<li class="gallery-img"><img src="img/car.jpg"></li>
-						<li class="gallery-img"><img src="img/old-foto.jpg"></li>
-					</ul>
+				<div class="container-middle-right">
+					<a class="container-middle-right_reklam" href="#"><img class="i_reklam" src="img/reklama.png"></a>
+					<div class="container-middle-right-form">
+						<span class="container-middle-right-form-text-top">Sing Up for Newsletter</span>
+						<p class="">Sing up to receive our free newsletters!</p>
+						<form>
+							<input class="container-middle-right-form_name" type="name" size="25" value="Name">
+							<input class="container-middle-right-form_email" size="25" type="email" value="Email Adress">
+							<input class="container-middle-right-form_btn" type="submit" value="SUBMIT">
+						</form>
+						<span class="container-middle-right-form-text-submit">We do not spam.We value your privacy!</span>
+					</div>
 				</div>
+			</div>
+
+
+
 		</div>
 	</div>		
 </body>
