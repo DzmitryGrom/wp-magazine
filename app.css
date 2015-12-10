@@ -10,12 +10,12 @@
     font-family: BebasNeue; 
     src: url(fonts/BebasNeue Regular.ttf);
 }
+@font-face {
+    font-family: Georgia
+    src: url(fonts/Georgia.ttf);
+}
 *{
 	transition: all .2s;
-}
-h1,h2,h3{
-	margin: 0px;
-	padding: 0px;
 }
 ul,li{
 	margin: 0px;
@@ -73,6 +73,21 @@ img{
 	padding: 0;
 	padding: 20px 0px 0px 8px;
 }
+.header-logo-element-text-top{
+	font-size: 15px;
+	font-family: Georgia;
+}
+.header-logo-element-text-bottom{
+	font-size: 30px;
+	font-family: Georgia;
+	display: inline-block;
+}
+.header-logo-element-text-bottom_red{
+	color: red;
+	font-size: 30px;
+	font-family: Georgia;
+	display: inline-block;
+}
 .header-nav{
 	display: inline-block;
 	width: 33%;
@@ -118,14 +133,12 @@ img{
 .header-nav-search-input {
     border: 1px solid #bababa;
     background-color: #f8f8f8;
-    width: 221px;
+    width: 230px;
     height: 28px;
     vertical-align: middle;
 }
 .header-nav-search button {
-	padding-left: 0px;
     width: 31px;
-    margin-left: -4px;
     height: 28px;
     border: none;
     background-color: black; url(img/) no-repeat 50% 50%;
