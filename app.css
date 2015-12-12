@@ -31,7 +31,7 @@ body{
 	background-color: white;
 	padding: 20px;
 }
-header{
+.header{
 	font-size: 0px;
 }
 a{
@@ -115,13 +115,10 @@ footer{
 .header-nav-element .first{
 	border-left: none;
 }
-.header-nav-social-caption{
+.header-social{
 	width: 33%;
 	display: inline-block;
 	text-align: right;
-}
-.header-nav-social-top{
-	display: inline-block;
 }
 .header-nav-social-top-list{
 	margin: 0;
@@ -311,7 +308,7 @@ nav{
     overflow: hidden;
     margin: 13px auto auto 13px;
 }
-.breaking-text{
+.container-top-news_text{
 	background-color: #080808;
 	opacity:0.7;
 	color: white;
@@ -324,7 +321,7 @@ nav{
   	z-index: 1;
   	left: 2%;
 }
-.breaking-p{
+.container-top-news_text-red{
 	color: white;
 	position: absolute;
 	background-color: red;
@@ -527,7 +524,7 @@ nav{
 @media only screen and (max-width: 904px){
 	.header-logo,
 	.header-nav,
-	.header-nav-social-caption{
+	.header-social{
 		display: block;
 		text-align: center;
 		width: 100%;
